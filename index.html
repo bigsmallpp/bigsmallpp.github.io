@@ -895,9 +895,10 @@
         <div class="premium-row">
             <div class="premium-card" data-href="https://www.patreon.com/c/CSSeb/membership">
                 <h2>Plus</h2>
-                <h3>3$ / Month</h3>
+                <h3>2.50$ / Month</h3>
                 <table class="table">
                         <tr><th>Feature</th><th>Included</th></tr>
+                        <tr><td>Premium Servers</td><td>1</td></tr>
                         <tr><td>Leaderboard</td><td>Full</td></tr>
                         <tr><td>Leaderboard Sync</td><td>Every 168h</td></tr>
                         <tr><td>Faceit Stats</td><td>Full</td></tr>
@@ -913,9 +914,10 @@
 
             <div class="premium-card" data-href="https://www.patreon.com/c/CSSeb/membership">
                 <h2>Premium</h2>
-                <h3>7$ / Month</h3>
+                <h3>6$ / Month</h3>
                 <table class="table">
                         <tr><th>Feature</th><th>Included</th></tr>
+                        <tr><td>Premium Servers</td><td>2</td></tr>
                         <tr><td>Leaderboard</td><td>Full</td></tr>
                         <tr><td>Leaderboard Sync</td><td>Every 72h</td></tr>
                         <tr><td>Faceit Stats</td><td>Full</td></tr>
@@ -931,18 +933,19 @@
             
             <div class="premium-card" data-href="https://www.patreon.com/c/CSSeb/membership">
                 <h2>Ultra</h2>
-                <h3>17.50$ / Month</h3>
+                <h3>12.50$ / Month</h3>
                 <table class="table">
                         <tr><th>Feature</th><th>Included</th></tr>
+                        <tr><td>Premium Servers</td><td>3</td></tr>
                         <tr><td>Leaderboard</td><td>Full</td></tr>
                         <tr><td>Leaderboard Sync</td><td>Every 24h</td></tr>
                         <tr><td>Faceit Stats</td><td>Full</td></tr>
-                        <tr><td>LFP Profiles</td><td>1000</td></tr>
-                        <tr><td>Daily LFP Likes</td><td>10</td></tr>
-                        <tr><td>Queue Slots</td><td>50</td></tr>
+                        <tr><td>LFP Profiles</td><td>100</td></tr>
+                        <tr><td>Daily LFP Likes</td><td>5</td></tr>
+                        <tr><td>Queue Slots</td><td>30</td></tr>
                         <tr><td>Shuffle Teams</td><td>✔</td></tr>
-                        <tr><td>VC Permanent</td><td>25</td></tr>
-                        <tr><td>VC Temporary</td><td>100</td></tr>
+                        <tr><td>VC Permanent</td><td>10</td></tr>
+                        <tr><td>VC Temporary</td><td>30</td></tr>
                         <tr><td>VC Tools</td><td>Full</td></tr>
                 </table>
             </div>
