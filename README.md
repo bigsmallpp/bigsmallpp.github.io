@@ -20,6 +20,11 @@
     <!-- <a class="nav-link" data-target="premium">Pricing</a> -->
 </nav>
 
+<!-- Lightbox overlay -->
+<div id="lightbox" class="lightbox">
+    <img id="lightbox-img" src="">
+</div>
+
 <!-- PAGE CONTENT WRAPPER (animated) -->
 <main id="content" class="page-transition visible">
 
@@ -33,82 +38,110 @@
             <a class="invite-button" href="YOUR_INVITE_LINK" target="_blank">Invite Bot</a>
         </div>
 
-    <div class="bot-description">
-        <h2>A Better Discord Experience</h2>
-        <div class="accent-text">
+        <div class="bot-description">
+            <h2>A Better Discord Experience</h2>
+            <div class="accent-text">
+                
+
+                <p>
+                    <strong>This bot is built to enhance both user experience and server management</strong>.<br><br>
+                    Why create dozens of voice channels when users can make their own (with full privacy controls)
+                    and the bot cleans everything up automatically? And for CS2 players, nothing beats showing off
+                    your Faceit elo or stats, both of which the bot handles with ease!<br><br>
+
+                    Plus, you'll never miss a CS2 update again! The bot fetches new patches within minutes and
+                    presents the notes in a clean, easy to read format.
+                </p>
+            </div>
             
+            
+            <div class="feature-list-wrapper fade-in-on-scroll">
+                <div class="feature-list">
+                    <ul>
+                        <li>
+                            <strong>Automated Faceit Elo Tracking</strong>
+                            <p class="feature-desc">
+                                Users can enter their Faceit username and have their elo updated every 24 hours.
+                            </p>
+                        </li>
 
-            <p>
-                <strong>This bot is built to enhance both user experience and server management</strong>.<br><br>
-                Why create dozens of voice channels when users can make their own (with full privacy controls)
-                and the bot cleans everything up automatically? And for CS2 players, nothing beats showing off
-                your Faceit elo or stats, both of which the bot handles with ease!<br><br>
+                        <li>
+                            <strong>Detailed Faceit Match History</strong>
+                            <p class="feature-desc">
+                                View stats for the last 10 games of any player, including Wins, Losses, average ADR and more!
+                            </p>
+                        </li>
 
-                Plus, you'll never miss a CS2 update again! The bot fetches new patches within minutes and
-                presents the notes in a clean, easy to read format.
-            </p>
+                        <li>
+                            <strong>Weekly Faceit Leaderboard</strong>
+                            <p class="feature-desc">
+                                Users can enter themselves into an automatically updated leaderboard where they can flex their
+                                current elo, elo gains, elo losses or matches played in the last 7 days!
+                            </p>
+                        </li>
+
+                        <li>
+                            <strong>Voice Channel Management</strong>
+                            <p class="feature-desc">
+                                Users can create their own temporary voice channels with privacy controls:
+                                make channels private, require join requests, or hide them entirely.<br><br>
+                                Server owners can create permanent voice channels. These channels remain active
+                                until an Admin deletes them and cannot be made private or hidden by users.
+                            </p>
+                        </li>
+
+                        <li>
+                            <strong>Update Notifications</strong>
+                            <p class="feature-desc">
+                                CS2 updates are fetched within minutes and posted on your server if this feature is
+                                activated!
+                            </p>
+                        </li>
+
+                        <li>
+                            <strong>Looking-For-Players Feature</strong>
+                            <p class="feature-desc">
+                                No more spamming "someone from REGION wanting to play CS2 together?" in text channels. Users looking
+                                for other CS2 players can create a LFP profile allowing others to add them!
+                            </p>
+                        </li>
+
+                        <li>
+                            <strong>...and many more!</strong>
+                            <p class="feature-desc">
+                                Additional utilities, QoL tools, and CS inspired features designed to
+                                enhance your Discord server.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+        <div class="showcase">
+            <h2>Enhanced Voice Channel Functionality and Privacy</h2>
+            <div class="video-section">  
+                <video class="interactive-video" muted playsinline>
+                    <source src="videos/Dynamic Channels.mp4" type="video/mp4">
+                </video>
+
+                <video class="interactive-video" muted playsinline>
+                    <source src="videos/Channel Privacy.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
         
-        
-        <div class="feature-list-wrapper fade-in-on-scroll">
-            <div class="feature-list">
-                <ul>
-                    <li>
-                        <strong>Automated Faceit Elo Tracking</strong>
-                        <p class="feature-desc">
-                            Users can enter their Faceit username and have their elo updated every 24 hours.
-                        </p>
-                    </li>
+        <div class="showcase">
+            <h2>Faceit Stats, LFP and the Queue</h2>
+            <div class="carousel">
+                <button class="carousel-btn left">&lt;</button>
 
-                    <li>
-                        <strong>Detailed Faceit Match History</strong>
-                        <p class="feature-desc">
-                            View stats for the last 10 games of any player, including Wins, Losses, average ADR and more!
-                        </p>
-                    </li>
+                <div class="carousel-window">
+                    <img class="carousel-img active" src="images/Faceit Stats.png">
+                    <img class="carousel-img" src="images/Leaderboard.png">
+                    <img class="carousel-img" src="images/Queue.png">
+                </div>
 
-                    <li>
-                        <strong>Weekly Faceit Leaderboard</strong>
-                        <p class="feature-desc">
-                            Users can enter themselves into an automatically updated leaderboard where they can flex their
-                            current elo, elo gains, elo losses or matches played in the last 7 days!
-                        </p>
-                    </li>
-
-                    <li>
-                        <strong>Voice Channel Management</strong>
-                        <p class="feature-desc">
-                            Users can create their own temporary voice channels with privacy controls:
-                            make channels private, require join requests, or hide them entirely.<br><br>
-                            Server owners can create permanent voice channels. These channels remain active
-                            until an Admin deletes them and cannot be made private or hidden by users.
-                        </p>
-                    </li>
-
-                    <li>
-                        <strong>Update Notifications</strong>
-                        <p class="feature-desc">
-                            CS2 updates are fetched within minutes and posted on your server if this feature is
-                            activated!
-                        </p>
-                    </li>
-
-                    <li>
-                        <strong>Looking-For-Players Feature</strong>
-                        <p class="feature-desc">
-                            No more spamming "someone from REGION wanting to play CS2 together?" in text channels. Users looking
-                            for other CS2 players can create a LFP profile allowing others to add them!
-                        </p>
-                    </li>
-
-                    <li>
-                        <strong>...and many more!</strong>
-                        <p class="feature-desc">
-                            Additional utilities, QoL tools, and CS inspired features designed to
-                            enhance your Discord server.
-                        </p>
-                    </li>
-                </ul>
+                <button class="carousel-btn right">&gt;</button>
             </div>
         </div>
     </div>
@@ -1035,6 +1068,128 @@
         });
     });
 </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const imgs = document.querySelectorAll('.carousel-img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        imgs.forEach(img => {
+            img.addEventListener('click', () => {
+                lightbox.style.display = 'flex';
+                lightboxImg.src = img.src;
+            });
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target !== lightboxImg) {
+                lightbox.style.display = 'none';
+            }
+        });
+
+        // Carousel
+        let index = 0;
+
+        function updateCarousel() {
+            imgs.forEach((img, i) => {
+                img.classList.toggle('active', i === index);
+            });
+        }
+
+        document.querySelector('.carousel-btn.left').onclick = () => {
+            index = (index === 0) ? imgs.length - 1 : index - 1;
+            updateCarousel();
+        };
+
+        document.querySelector('.carousel-btn.right').onclick = () => {
+            index = (index + 1) % imgs.length;
+            updateCarousel();
+        };
+
+        const showcase = document.querySelector('.carousel');
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        showcase.classList.add('visible');   // fade in
+                    } else {
+                        showcase.classList.remove('visible'); // fade out
+                    }
+                });
+            },
+            { threshold: 0.2 } // trigger when 20% of the element is visible
+        );
+
+        observer.observe(showcase);
+    });
+</script>
+
+<script>
+    const videos = document.querySelectorAll(".interactive-video");
+
+    // Updated observer with better sensitivity for tall videos
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const video = entry.target;
+
+            if (entry.isIntersecting) {
+                video.classList.add("in-view");
+            } else {
+                video.classList.remove("in-view");
+                video.pause();
+                video.classList.remove("playing");
+            }
+        });
+    }, { 
+        threshold: 0.1
+    });
+
+    // Observe all videos
+    videos.forEach(video => observer.observe(video));
+
+    // Pause all others (unchanged)
+    function pauseOthers(except) {
+        videos.forEach(v => {
+            if (v !== except) {
+                v.pause();
+                v.classList.remove("playing");
+            }
+        });
+    }
+
+    // Interaction logic (unchanged)
+    videos.forEach(video => {
+        video.addEventListener("mouseenter", () => {
+            pauseOthers(video);
+            video.play();
+            video.classList.add("playing");
+        });
+
+        video.addEventListener("click", () => {
+            if (video.paused) {
+                pauseOthers(video);
+                video.play();
+                video.classList.add("playing");
+            } else {
+                video.pause();
+                video.classList.remove("playing");
+            }
+        });
+
+        video.addEventListener("play", () => {
+            video.classList.add("playing");
+        });
+
+        video.addEventListener("pause", () => {
+            video.classList.remove("playing");
+        });
+    });
+</script>
+
+
+
 
 </body>
 </html>
