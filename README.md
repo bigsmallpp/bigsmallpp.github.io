@@ -35,7 +35,7 @@
         <img class="bot-logo" src="images/Bot_Logo.png" alt="Bot Logo">
 
         <div class="center">
-            <a class="invite-button" href="YOUR_INVITE_LINK" target="_blank">Invite Bot</a>
+            <a class="invite-button" href="https://discord.com/oauth2/authorize?client_id=1218927111629181062" target="_blank">Invite Bot</a>
         </div>
 
         <div class="bot-description">
