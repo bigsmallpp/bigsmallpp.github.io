@@ -17,7 +17,7 @@
     <a class="nav-link" data-target="documentation">Documentation</a>
     <a class="nav-link" data-target="tos">Terms of Service</a>
     <a class="nav-link" data-target="privacy">Privacy Policy</a>
-    <!-- <a class="nav-link" data-target="premium">Pricing</a> -->
+    <a class="nav-link" data-target="premium">Pricing</a>
 </nav>
 
 <!-- Lightbox overlay -->
@@ -136,9 +136,10 @@
                 <button class="carousel-btn left">&lt;</button>
 
                 <div class="carousel-window">
-                    <img class="carousel-img active" src="images/Faceit Stats.png">
+                    <img class="carousel-img active" src="images/Queue.gif">
+                    <img class="carousel-img" src="images/Faceit Stats.png">
                     <img class="carousel-img" src="images/Leaderboard.png">
-                    <img class="carousel-img" src="images/Queue.png">
+                    <img class="carousel-img" src="images/LFP.png">
                 </div>
 
                 <button class="carousel-btn right">&gt;</button>
@@ -885,7 +886,7 @@
     </section>
 
     <!-- ====================== PREMIUM ====================== -->
-    <section id="premium" class="section hidden">
+    <section id="premium" class="section">
         <div class="feature-box">
             <p>
                 All essential features are available for free. Premium upgrades unlock additional functionality, extend data and performance limits, 
