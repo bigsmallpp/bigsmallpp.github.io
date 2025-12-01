@@ -131,12 +131,13 @@
         </div>
         
         <div class="showcase">
-            <h2>Faceit Stats, LFP and the Queue</h2>
+            <h2>Faceit Stats, LFP, the Queue and more...</h2>
             <div class="carousel">
                 <button class="carousel-btn left">&lt;</button>
 
                 <div class="carousel-window">
                     <img class="carousel-img active" src="images/Queue.gif">
+                    <img class="carousel-img" src="images/Patchnotes.png">
                     <img class="carousel-img" src="images/Faceit Stats.png">
                     <img class="carousel-img" src="images/Leaderboard.png">
                     <img class="carousel-img" src="images/LFP.png">
@@ -934,7 +935,7 @@
                         <tr><th>Feature</th><th>Included</th></tr>
                         <tr><td>Premium Servers</td><td>1</td></tr>
                         <tr><td>Leaderboard</td><td>Full</td></tr>
-                        <tr><td>Leaderboard Sync</td><td>Every 168h</td></tr>
+                        <tr><td>Leaderboard Sync</td><td>Every 120h</td></tr>
                         <tr><td>Faceit Stats</td><td>Full</td></tr>
                         <tr><td>LFP Profiles</td><td>15</td></tr>
                         <tr><td>Daily LFP Likes</td><td>2</td></tr>
