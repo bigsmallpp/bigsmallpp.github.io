@@ -570,6 +570,11 @@
                     <p>Use <code>/leaderboard_create</code> to create a weekly (or more frequently) updated Leaderboard featuring all kinds of Faceit stats of participating 
                         server members over the last 7 days.</p>
                 </li>
+
+                <li>
+                    <h3>6. Feedback and Issues</h3>
+                    <p>If you encounter any issues or the Bot is acting up, you can hit me up <b><a href="https://discord.gg/tThta5kn">here</a></b> any time :)</p>
+                </li>
             </ol>
         </div>
     </section>
