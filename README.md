@@ -449,12 +449,11 @@
             </tr>
             <tr>
                 <div class="table-non-wrap">
-                    <td>/voice_toggle_elo</td>
-                    <td>None</td>
+                    <td>/voice_show_elo</td>
+                    <td>Displayed Ranking</td>
                 </div>
                 <div class="table-wrap">
                     <td>Replaces the channel name with the average Faceit Elo or Premier Rating of all users in the channel.<br>
-                    Note: This feature is a toggle that switches between Faceit Elo, Premier Rating and the default naming scheme.</td>
                 </div>
             </tr>
             <tr>
